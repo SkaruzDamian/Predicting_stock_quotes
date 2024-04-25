@@ -7,10 +7,7 @@ from keras.layers import LSTM, Dense
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import Select
-import mysql.connector
 import time
-
-mydb = mysql.connector.connect(host='localhost', user='root', password='', database='stockmarket')
 
 def downloadingFilesFromWeb():
     download_dir = 'D:\\Notowania'
