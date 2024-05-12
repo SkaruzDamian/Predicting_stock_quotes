@@ -22,7 +22,7 @@ file_path = 'D:\\Notowania\\eurocash_to_2024-04-26_akcje.xls'
 df = pd.read_excel(file_path)
 scaler = StandardScaler()
 
-# Define K-Fold Cross Validation
+
 def compare_arrays(array1, array2):
     liczba=float('inf')
     similarity=float('inf')
